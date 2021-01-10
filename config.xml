@@ -1,0 +1,67 @@
+<root>
+	<settings>
+		<multicast>230.0.0.2</multicast>
+		<session_port>4445</session_port>
+		<census_interval>2000</census_interval>
+		<use_border>true</use_border>
+		<use_time_title>true</use_time_title>
+		<default_title></default_title>
+		<title_align>center</title_align>
+		<note_color>
+			<red>255</red>
+			<green>255</green>
+			<blue>128</blue>
+		</note_color>
+		<title_color>
+			<red>255</red>
+			<green>255</green>
+			<blue>128</blue>
+		</title_color>
+		<border_color>
+			<red>255</red>
+			<green>255</green>
+			<blue>128</blue>
+		</border_color>
+		<border_width>4</border_width>
+		<note_font>
+			<face>Arial</face>
+			<size>12</size>
+			<bold>false</bold>
+			<italic>false</italic>
+			<underline>false</underline>
+			<strikeout>false</strikeout>
+		</note_font>
+		<title_font>
+			<face>Arial</face>
+			<size>10</size>
+			<bold>false</bold>
+			<italic>false</italic>
+		</title_font>
+		<note_font_color>
+			<red>0</red>
+			<green>0</green>
+			<blue>0</blue>
+		</note_font_color>
+		<title_font_color>
+			<red>128</red>
+			<green>128</green>
+			<blue>128</blue>
+		</title_font_color>
+		<note_width>350</note_width>
+		<note_height>250</note_height>
+		<confirm_delete>false</confirm_delete>
+		<template_menu>true</template_menu>
+		<show_splash>true</show_splash>
+		<play_sound>false</play_sound>
+		<notes_expire>true</notes_expire>
+		<expire_minutes>15</expire_minutes>
+	</settings>
+	<_network>
+		<recipient name="Apollo"></recipient>
+	</_network>
+	<lists>
+		<list name="Everyone">
+			<recipient name="Apollo"></recipient>
+		</list>
+	</lists>
+</root>
